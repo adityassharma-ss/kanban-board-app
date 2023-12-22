@@ -1,0 +1,33 @@
+/* src/tailwind.css */
+/* Remove Tailwind CSS imports if you are not using them */
+/* @import 'tailwindcss/base'; */
+/* @import 'tailwindcss/components'; */
+/* @import 'tailwindcss/utilities'; */
+
+/* Custom Colors */
+:root {
+    --primary-bg: #f8f9fa;
+    --secondary-bg: #e9ecef;
+    --card-bg: #ffffff;
+    --card-border: #ced4da;
+    --text-primary: #343a40;
+    --text-secondary: #495057;
+  }
+  
+  body {
+    background-color: var(--primary-bg);
+    color: var(--text-primary);
+  }
+  
+  .dark-mode body {
+    background-color: #343a40;
+    color: #adb5bd;
+  }
+  
+  .card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+  }
+  
+  /* Add more styles as needed */
+  
