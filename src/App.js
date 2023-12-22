@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useEffect } from 'react';
 import { useStore } from './store';
 import KanbanBoard from './components/KanbanBoard';
